@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: Arial, sans-serif; /* Adding a clean font for a professional look */
 }
 
 .App-logo {
@@ -22,10 +23,34 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 20px;
+}
+
+header {
+  background-color: #20232a;
+  padding: 10px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+li {
+  display: inline;
 }
 
 .App-link {
   color: #61dafb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.App-link:hover {
+  text-decoration: underline;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +60,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+main {
+  padding: 20px;
 }

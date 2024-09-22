@@ -1,0 +1,40 @@
+.library {
+    padding: 20px;
+  }
+  
+  .book-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .book-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .book-cover {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .book-details {
+    margin-top: 10px;
+  }
+  
+  .book-name {
+    font-weight: bold;
+  }
+  
+  .book-author, .book-year {
+    color: #666;
+  }
+  
